@@ -2,10 +2,10 @@
 
 #### Objectives:
 
-* Describe singly-linked and doubly-linked linked lists
-* Compare and contrast linked lists with other data structures (stacks, queues, arrays)
-* Write your own linked list methods in javascript (and/or Ruby!)
-* Solve interview questions with linked lists
+* **Describe** singly-linked and doubly-linked linked lists
+* **Compare** and **contrast** linked lists with other data structures (stacks, queues, arrays)
+* **Write** your own linked list methods in javascript (and/or Ruby!)
+* **Solve** interview questions with linked lists
 
 ## What are linked lists?
 
