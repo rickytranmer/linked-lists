@@ -1,3 +1,5 @@
+<!--Hook: How many of you have ever been asked to "reverse a linked list"?  Letting you in on a little secret, it was once one of the most popular interview questions for developers.  Basically everyone now knows there are 10s of articles per language in how to do it, but you may very well see this question or, more likely, this question in disguise.  So that's why we're teaching linked lists. -->
+
 # Linked Lists
 
 #### Objectives:
