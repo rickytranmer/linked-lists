@@ -6,7 +6,7 @@
 
 * **Describe** singly-linked and doubly-linked linked lists
 * **Compare** and **contrast** linked lists with other data structures (stacks, queues, arrays)
-* **Write** your own linked list methods in javascript (and/or Ruby!)
+* **Write** your own linked list methods in javascript
 * **Solve** interview questions with linked lists
 
 ## What are linked lists?
@@ -65,7 +65,7 @@ It’s easy to build linear data structures such as stacks and queues with linke
 
 
 ## GA Challenges
-In Ruby it makes most sense to use arrays due to built-in methods such as `shift`, `unshift`, `enq`, `deq`, `push` and `pop`, but it is helpful to know why linked lists can be beneficial. The challenges below should be attempted in Javascript.
+In Javascript, it makes most sense to use arrays due to built-in methods such as `shift`, `unshift`, `push` and `pop`, but it is helpful to know why linked lists can be beneficial. The challenges below should be attempted in Javascript.
 
 When you're ready for the challenge, we give you the List prototype with the following methods:
 
@@ -73,7 +73,7 @@ When you're ready for the challenge, we give you the List prototype with the fol
 1. `addAtEnd()`
 1. `print()`
 
-Your mission should you choose to accept it is to Implement the following:
+Your mission is to Implement the following:
 
 1. `insertAtHead(data)`
 1. `length()` 
