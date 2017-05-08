@@ -15,13 +15,11 @@
 
 ![linked list image from wikipedia](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Singly-linked-list.svg/640px-Singly-linked-list.svg.png)
 
-A linked-list is a primitive data structure that can be used to create stacks and queues.
+A **linked-list** is a primitive data structure that can be used to create stacks and queues.
 
-Linked lists store sequential (ordered) data in a series of "nodes".  Each node in a linked list contains some value and a reference or "pointer" to the next node.  If the linked list is "doubly linked", each node will also have another pointer to the previous node.  Linked lists that only have pointers to the next node are called "singly linked."
+Linked lists store sequential (ordered) data in a series of **"nodes"**.  Each node in a linked list contains some value and a reference or **"pointer"** to the next node.  If the linked list is **"doubly linked"**, each node will also have another pointer to the previous node.  Linked lists that only have pointers to the next node are called **"singly linked"**.
 
-The very last node of a linked list, called the tail, has a null next node because nothing comes after it.  The very first node is called the head. The head will always have a null previous node (assuming the list is doubly linked) because nothing comes before the head.
-
-Singly linked lists look a lot like binary trees, except each node can only have at most one child.
+The very last node of a linked list, called the **"tail"**, has a null next node because nothing comes after it.  The very first node is called the **"head"**. The head will always have a null previous node (assuming the list is doubly linked) because nothing comes before the head.
 
 If you're asked an interview question about a linked list, make sure to clarify whether it's singly linked (only next node pointers) or doubly linked (both next and previous node pointers). We'll focus on singly linked lists.
 
@@ -72,12 +70,12 @@ In Javascript, it makes sense to use arrays for data access due to built-in meth
 When you're ready for the challenge, we give you the List prototype with the following methods:
 
 1. `makeNode()`
-1. `addAtEnd()`
+1. `insertAtTail()`
 1. `print()`
 
 Your mission is to Implement the following:
 
-1. `insertAtHead(data)`
+1. `insertAtHead()`
 1. `length()` 
 1. `exists()`
 1. `each()`
