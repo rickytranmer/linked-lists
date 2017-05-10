@@ -91,7 +91,7 @@ Your mission is to Implement the following:
 1. `insertAt()`
 1. `delete()`
 
-<!--9:35 turning over to devs WDI3 -->
+<!--9:38 turning over to devs WDI3 -->
 
 ## Licensing
 All content is licensed under a CC­BY­NC­SA 4.0 license.
