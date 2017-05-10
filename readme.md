@@ -1,5 +1,7 @@
 <!--Actually started 9:15, "finished" first two methods and went over solution by 10:30, some devs went further -->
 
+<!--9:05 WDI3 -->
+
 <!--Hook: How many of you have ever been asked to "reverse a linked list"?  Letting you in on a little secret, it was once one of the most popular interview questions for developers.  Basically everyone now knows there are 10s of articles per language in how to do it, but you may very well see this question or, more likely, this question in disguise.  So that's why we're teaching linked lists. -->
 
 # Linked Lists
@@ -23,6 +25,9 @@ The very last node of a linked list, called the **"tail"**, has a null next node
 
 If you're asked an interview question about a linked list, make sure to clarify whether it's singly linked (only next node pointers) or doubly linked (both next and previous node pointers). We'll focus on singly linked lists.
 
+<!--Catch phrase with head, tail, node, doubly/singly linked -->
+
+<!--WDI3 9:12-->
 
 ## So like... arrays?
 
@@ -47,6 +52,8 @@ On the other hand...
 **Linked lists take up a bit more space** because in addition to storing the actual data, you have to store the pointers.
 
 **It can take more time to access a full linked list,** because the data living in different places can't just be read as a continous chunk.
+
+<!--9:18 WDI3 -->
 
 ## Applications
 
@@ -84,6 +91,7 @@ Your mission is to Implement the following:
 1. `insertAt()`
 1. `delete()`
 
+<!--9:35 turning over to devs WDI3 -->
 
 ## Licensing
 All content is licensed under a CC­BY­NC­SA 4.0 license.
