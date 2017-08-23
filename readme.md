@@ -1,5 +1,6 @@
 <!--Actually started 9:15, "finished" first two methods and went over solution by 10:30, some devs went further -->
 
+<!--WDI4 1:32 -->
 <!--9:05 WDI3 -->
 
 <!--Hook: How many of you have ever been asked to "reverse a linked list"?  Letting you in on a little secret, it was once one of the most popular interview questions for developers.  Basically everyone now knows there are 10s of articles per language in how to do it, but you may very well see this question or, more likely, this question in disguise.  So that's why we're teaching linked lists. -->
@@ -27,6 +28,7 @@ If you're asked an interview question about a linked list, make sure to clarify 
 
 <!--Catch phrase with head, tail, node, doubly/singly linked -->
 
+<!--WDI4 1:4 -->
 <!--WDI3 9:12-->
 
 ## So like... arrays?
@@ -70,6 +72,7 @@ Dynamic – LL’s allocate the needed memory when the program is initiated and 
 Insertion and deletion is easy. | You have to access nodes sequentially since that’s how they’re defined; furthermore they’re not stored continuously so it takes longer to access an element.
 It’s easy to build linear data structures such as stacks and queues with linked lists. | With a singly-linked list it’s pretty much terrible to reverse traverse. Doubly-linked lists contain a pointer to the previous node as well but that’s even more memory intensive.
 
+<!--WDI4 1:55, 2:08 turning over to devs -->
 
 ## GA Challenges
 In Javascript, it makes sense to use arrays for data access due to built-in methods such as `shift`, `unshift`, `push` and `pop`, but it is helpful to know why linked lists can be beneficial. The challenges below should be attempted in Javascript.
@@ -92,6 +95,7 @@ Your mission is to Implement the following:
 1. `delete()`
 
 <!--9:38 turning over to devs WDI3 -->
+<!--WDI4 put solution back in at 2:46, took break at 2:55 -->
 
 ## Licensing
 All content is licensed under a CC­BY­NC­SA 4.0 license.
