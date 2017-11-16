@@ -1,5 +1,6 @@
 <!--Actually started 9:15, "finished" first two methods and went over solution by 10:30, some devs went further -->
 
+<!--WDI5 1:34 -->
 <!--WDI4 1:32 -->
 <!--9:05 WDI3 -->
 
@@ -63,6 +64,7 @@ On the other hand...
 
 * **implementing stacks and queues** Linked lists are a natural choice for these data structures that need fast access to beginning or end of a list... much more natural than arrays.
 
+<!--1:51 WDI5 -->
 
 #### Pros and Cons of Linked Lists
 
@@ -73,6 +75,7 @@ Insertion and deletion is easy. | You have to access nodes sequentially since th
 It’s easy to build linear data structures such as stacks and queues with linked lists. | With a singly-linked list it’s pretty much terrible to reverse traverse. Doubly-linked lists contain a pointer to the previous node as well but that’s even more memory intensive.
 
 <!--WDI4 1:55, 2:08 turning over to devs -->
+<!--WDI5 2:15 turning over to devs -->
 
 ## GA Challenges
 In Javascript, it makes sense to use arrays for data access due to built-in methods such as `shift`, `unshift`, `push` and `pop`, but it is helpful to know why linked lists can be beneficial. The challenges below should be attempted in Javascript.
