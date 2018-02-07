@@ -15,6 +15,19 @@
 * **Write** your own linked list methods in javascript
 * **Solve** interview questions with linked lists
 
+## What's with all the data structures options?
+One of the coolest parts of our jobs is applying logic to reality. Deciding which data structure is often the first step. Are you trying to model something that resembles cars on a train? Or words in a dictionary? Or marshmallows in a cereal bowl? There are some questions you can ask yourself (as listed by [Diana Tkachenkol's blog](http://dtkachenko.blogspot.com/2011/11/data-structures-and-algorithms-when-to.html) ):
+
+* do you need random access?
+* do you perform a lot of insertions? how about deletions?
+* do you allow duplicates?
+* are you searching for elements frequently?
+* does your data need to be ordered?
+* would you need to traverse the elements?
+* how big is your data?
+
+If your answer are yes to insertions & deletions and not sure how big your data is, you should consider linked lists.
+
 ## What are linked lists?
 
 ![linked list image from wikipedia](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Singly-linked-list.svg/640px-Singly-linked-list.svg.png)
