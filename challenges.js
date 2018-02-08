@@ -142,7 +142,21 @@ List.prototype = {
          index (integer) of that Node's location.
     */
     indexOf: function(data) {
-        // Enter code here!
+        console.log('-finding index of ' + data);
+        let index = 0;
+        // set our 'current' Node to the starting node
+        var current = this.start;
+        // while the 'current' Node isn't null
+        while(current !== null) {
+            if(current.data == data) {
+                return index;
+            }
+            // increment index
+            index ++;
+            // assign our 'current' Node's next to be 'current' (increment!)
+            current = current.next;
+        }
+        return null;
     },
 
     /*
@@ -199,9 +213,15 @@ console.log();
 
 //exists()
 console.log(LinkedList.exists(7));
-console.log(LinkedList.exists(100));
+console.log(LinkedList.exists(11));
 console.log();
 
 //each()
 LinkedList.each(console.log);
+console.log();
+
+//indexOf()
+console.log(LinkedList.indexOf(7));
+console.log();
+console.log(LinkedList.indexOf(11));
 console.log();
