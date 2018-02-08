@@ -112,6 +112,7 @@ Your mission is to Implement the following:
 
 <!--9:38 turning over to devs WDI3 -->
 <!--WDI4 put solution back in at 2:46, took break at 2:55 -->
+<!--WDI6 9:45 taking a 5 minute break before turning over to devs for activity -->
 
 ## Licensing
 All content is licensed under a CC­BY­NC­SA 4.0 license.
